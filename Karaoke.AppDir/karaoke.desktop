@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Karaoke
+Comment=Displays lyrics for VLC player
+Exec=karaoke.sh
+Icon=karaoke
+Categories=Audio;Music;

@@ -42,3 +42,9 @@ app.*.map.json
 
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# AppDir
+/Karaoke.AppDir/usr/bin/
+/Karaoke.AppDir/.DirIcon
+/Karaoke.AppDir/AppRun
+/Karaoke-x86_64.AppImage

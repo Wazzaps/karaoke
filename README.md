@@ -4,14 +4,19 @@ A small karaoke/lyrics display for the currently running VLC song.
 
 Make sure the songs have metadata (at least title and artist).
 
-## Running
+## Downloading
+
+- Download from the "Releases" section
+- `chmod +x karaoke-x86_64.appimage`
+- `./karaoke-x86_64.appimage`
+
+## Building
 
 - step 0 - setup a linux flutter toolchain
-- step 1 - setup vscode for flutter dev
-- step 2 - run it inside vscode
+- step 1 - `flutter run`
 
 ## Known bugs
 
-- Attempting to close the app will make it stall. Probably async shenanigans.
+- Attempting to close the app will make it hang. Looks like `dbus_client` doesn't close its thread
 - Running under wayland produces a blank window without GDK_BACKEND=x11 env var, probably flutter's problem
-- Doesn't work in `flutter run`, looks like `dbus_client`'s fault somehow (writes lots of `flutter: Failed to read from socket: Invalid argument` to stdout)
+- stdout is very spammy (dbus_client is loud)
