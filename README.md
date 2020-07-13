@@ -2,6 +2,10 @@
 
 A small karaoke/lyrics display for the currently running VLC song.
 
+Video:
+
+[![Video](http://img.youtube.com/vi/ph0usWUUbZU/0.jpg)](http://www.youtube.com/watch?v=ph0usWUUbZU "Karaoke app for Linux")
+
 Make sure the songs have metadata (at least title and artist).
 
 ## Downloading
