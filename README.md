@@ -1,4 +1,4 @@
-# Karaoke app for linux
+# Karaoke app for linux <img src="https://github.com/Wazzaps/karaoke/blob/master/Karaoke.AppDir/karaoke.png?raw=true" height="38">
 
 A small karaoke/lyrics display for the currently running VLC song.
 
